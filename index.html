@@ -631,7 +631,7 @@
                 
                 // Distribute 4 random bonus points
                 const statKeys = ['hp', 'mp', 'atk', 'mag'];
-                for (let i = 0; i < 6; i++) {
+                for (let i = 0; i < 4; i++) {
                     const randomStat = statKeys[Math.floor(Math.random() * statKeys.length)];
                     bonusStats[randomStat]++;
                     
@@ -731,5 +731,6 @@
     </script>
 </body>
 </html>
+
 
 
